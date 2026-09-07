@@ -1,0 +1,27 @@
+[submodule "Assets/marus2-modules/marus2-proto"]
+	path = Assets/marus2-modules/marus2-proto
+	url = https://github.com/MARUSimulator/marus2-proto.git
+[submodule "Assets/marus2-modules/marus2-core"]
+	path = Assets/marus2-modules/marus2-core
+	url = https://github.com/MARUSimulator/marus2-core.git
+[submodule "Assets/marus2-modules/marus2-sensors"]
+	path = Assets/marus2-modules/marus2-sensors
+	url = https://github.com/MARUSimulator/marus2-sensors.git
+[submodule "Assets/marus2-modules/marus2-sensors-grpc"]
+	path = Assets/marus2-modules/marus2-sensors-grpc
+	url = https://github.com/MARUSimulator/marus2-sensors-grpc.git
+[submodule "Assets/marus2-modules/marus2-communications"]
+	path = Assets/marus2-modules/marus2-communications
+	url = https://github.com/MARUSimulator/marus2-communications.git
+[submodule "Assets/marus2-modules/marus2-communications-grpc"]
+	path = Assets/marus2-modules/marus2-communications-grpc
+	url = https://github.com/MARUSimulator/marus2-communications-grpc.git
+[submodule "Assets/marus2-modules/marus2-data-generation"]
+	path = Assets/marus2-modules/marus2-data-generation
+	url = https://github.com/MARUSimulator/marus2-data-generation.git
+[submodule "Assets/marus2-modules/marus2-visualization"]
+	path = Assets/marus2-modules/marus2-visualization
+	url = https://github.com/MARUSimulator/marus2-visualization.git
+[submodule "Assets/marus2-modules/marus2-visualization-grpc"]
+	path = Assets/marus2-modules/marus2-visualization-grpc
+	url = https://github.com/MARUSimulator/marus2-visualization-grpc.git
