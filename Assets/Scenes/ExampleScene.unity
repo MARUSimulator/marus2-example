@@ -512,7 +512,7 @@ MonoBehaviour:
   measurementNoise:
     ParameterKeys: []
     ParameterValues: []
-    NoiseTypeFullName: 
+    NoiseTypeFullName: Marus.NoiseDistributions.Noise+NoNoise
   isRTK: 1
   maximumOperatingDepth: 0.5
   point:
@@ -562,18 +562,18 @@ MonoBehaviour:
   AccelerometerNoise:
     ParameterKeys: []
     ParameterValues: []
-    NoiseTypeFullName: 
+    NoiseTypeFullName: Marus.NoiseDistributions.Noise+NoNoise
   LinearAcceleration: {x: 0, y: 0, z: 0}
   LocalVelocity: {x: 0, y: 0, z: 0}
   GyroNoise:
     ParameterKeys: []
     ParameterValues: []
-    NoiseTypeFullName: 
+    NoiseTypeFullName: Marus.NoiseDistributions.Noise+NoNoise
   AngularVelocity: {x: 0, y: 0, z: 0}
   OrientationNoise:
     ParameterKeys: []
     ParameterValues: []
-    NoiseTypeFullName: 
+    NoiseTypeFullName: Marus.NoiseDistributions.Noise+NoNoise
   EulerAngles: {x: 0, y: 0, z: 0}
   Orientation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &1068009605 stripped
@@ -663,7 +663,7 @@ MonoBehaviour:
   CartesianXRes: 256
   CartesianYRes: 256
   sonarRayDistribution: 0
-  sonarConfig: 0
+  sonarConfig: 1
   SaveImages: 0
   ImageSavePath: 
   Grid: 0
@@ -1307,25 +1307,41 @@ PrefabInstance:
       value: marus_boat
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 2636193780987506458, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
-    - {fileID: 2636193780987506461, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
-    - {fileID: 2636193781554460192, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
-    - {fileID: 7199968269183772332, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
-    - {fileID: 5431699182282509443, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 4387360206794785343, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
+    - {fileID: 9006780853495141867, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
+    - {fileID: 7199968268034106289, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
+    - {fileID: 7199968268034106290, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
+    - {fileID: 7199968268085348725, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
+    - {fileID: 7199968268085348724, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
+    - {fileID: 7199968268842295336, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
+    - {fileID: 7199968268842295337, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
+    - {fileID: 7199968269431486690, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
+    - {fileID: 7199968269431486691, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
     - {fileID: 7199968269203812591, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
     - {fileID: 7199968269203812584, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
     - {fileID: 7199968268822091316, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
     - {fileID: 7199968268822091317, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
-    - {fileID: 7199968269431486690, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
-    - {fileID: 7199968269431486691, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
-    - {fileID: 7199968268842295336, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
-    - {fileID: 7199968268842295337, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
-    - {fileID: 7199968268085348724, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
-    - {fileID: 7199968268085348725, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
-    - {fileID: 7199968268034106289, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
-    - {fileID: 7199968268034106290, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
-    - {fileID: 4387360206794785343, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
-    - {fileID: 9006780853495141867, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
+    - {fileID: 7199968269183772332, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
+    - {fileID: 5431699182282509443, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
     m_RemovedGameObjects:
     - {fileID: 2636193780987506463, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
     - {fileID: 2636193781554460194, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
@@ -1732,7 +1748,7 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1604674992}
   m_Enabled: 1
-  serializedVersion: 12
+  serializedVersion: 13
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 20
@@ -1784,7 +1800,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShadowRadius: 0
+  m_ShapeRadius: 0.025
   m_ShadowAngle: 0
   m_LightUnit: 2
   m_LuxAtDistance: 1
@@ -1827,7 +1843,8 @@ MonoBehaviour:
   m_ShapeWidth: -1
   m_ShapeHeight: -1
   m_AspectRatio: 1
-  m_Version: 14
+  m_ShapeRadius: -1
+  m_Version: 15
   m_ObsoleteShadowResolutionTier: 1
   m_ObsoleteUseShadowQualitySettings: 0
   m_ObsoleteCustomShadowResolution: 512
@@ -1840,7 +1857,6 @@ MonoBehaviour:
   m_AffectDiffuse: 1
   m_AffectSpecular: 1
   m_NonLightmappedOnly: 0
-  m_ShapeRadius: 0.025
   m_SoftnessScale: 1
   m_UseCustomSpotLightShadowCone: 0
   m_CustomSpotLightShadowCone: 30
@@ -1878,7 +1894,6 @@ MonoBehaviour:
   m_FilterTracedShadow: 1
   m_FilterSizeTraced: 16
   m_SunLightConeAngle: 0.5
-  m_LightShadowRadius: 0.5
   m_SemiTransparentShadow: 0
   m_ColorShadow: 1
   m_DistanceBasedFiltering: 0
@@ -2108,7 +2123,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1915303189}
   - component: {fileID: 1915303188}
-  - component: {fileID: 1915303187}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -2116,18 +2130,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1915303187
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1915303186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1915303188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2249,8 +2251,8 @@ SceneRoots:
   m_Roots:
   - {fileID: 1720107865}
   - {fileID: 1604674994}
+  - {fileID: 1428979327}
+  - {fileID: 3673288}
   - {fileID: 1915303189}
   - {fileID: 1404571365}
   - {fileID: 2139769361}
-  - {fileID: 1428979327}
-  - {fileID: 3673288}
