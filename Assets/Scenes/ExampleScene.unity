@@ -454,7 +454,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c915ae9abc75462bd95209906500177b, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Marus.Sensors.Grpc::Marus.Sensors.CameraSensorgRPC
+  m_EditorClassIdentifier: Marus.Sensors.Grpc::Marus.Sensors.CameraSensorGrpc
   UpdateFrequency: 1
   address: marus_boat/camera_stern
   MessageQueueSize: 10000
@@ -491,7 +491,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a087bc42a768d6937b22a4ab7866f9d0, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Marus.Sensors.Grpc::Marus.Sensors.gRPC.GnssgRPC
+  m_EditorClassIdentifier: Marus.Sensors.Grpc::Marus.Sensors.gRPC.GnssGrpc
   UpdateFrequency: 1
   address: marus_boat/gps
   MessageQueueSize: 10000
@@ -539,7 +539,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6144be2776240e726b3845cc5ef690a3, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Marus.Sensors.Grpc::Marus.Sensors.Primitive.ImugRPC
+  m_EditorClassIdentifier: Marus.Sensors.Grpc::Marus.Sensors.Primitive.ImuGrpc
   UpdateFrequency: 1
   address: marus_boat/imu
   MessageQueueSize: 10000
@@ -592,7 +592,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c915ae9abc75462bd95209906500177b, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Marus.Sensors.Grpc::Marus.Sensors.CameraSensorgRPC
+  m_EditorClassIdentifier: Marus.Sensors.Grpc::Marus.Sensors.CameraSensorGrpc
   UpdateFrequency: 1
   address: marus_boat/camera_starboard
   MessageQueueSize: 10000
@@ -634,7 +634,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3e5ebefd72e0e9bde9ee326c878eb659, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Marus.Sensors.Grpc::Marus.Sensors.Primitive.Sonar3DgRPC
+  m_EditorClassIdentifier: Marus.Sensors.Grpc::Marus.Sensors.Primitive.Sonar3DGrpc
   UpdateFrequency: 1
   address: marus_boat/sonar
   MessageQueueSize: 10000
@@ -698,7 +698,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c915ae9abc75462bd95209906500177b, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Marus.Sensors.Grpc::Marus.Sensors.CameraSensorgRPC
+  m_EditorClassIdentifier: Marus.Sensors.Grpc::Marus.Sensors.CameraSensorGrpc
   UpdateFrequency: 1
   address: marus_boat/camera_bow
   MessageQueueSize: 10000
@@ -735,7 +735,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4115b2b52dadba4369a3bb082f0f0042, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Marus.Sensors.Grpc::Marus.Sensors.RaycastLidargRPC
+  m_EditorClassIdentifier: Marus.Sensors.Grpc::Marus.Sensors.RaycastLidarGrpc
   UpdateFrequency: 1
   address: marus_boat/lidar
   MessageQueueSize: 10000
@@ -2092,7 +2092,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c915ae9abc75462bd95209906500177b, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Marus.Sensors.Grpc::Marus.Sensors.CameraSensorgRPC
+  m_EditorClassIdentifier: Marus.Sensors.Grpc::Marus.Sensors.CameraSensorGrpc
   UpdateFrequency: 1
   address: marus_boat/camera_port
   MessageQueueSize: 10000
