@@ -639,7 +639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c915ae9abc75462bd95209906500177b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Marus.Sensors.Grpc::Marus.Sensors.CameraSensorGrpc
-  UpdateFrequency: 1
+  UpdateFrequency: 30
   address: marus_boat/camera_bow
   MessageQueueSize: 10000
 --- !u!114 &1322009792
@@ -655,7 +655,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Marus.Sensors::Marus.Sensors.CameraSensor
   frameId: marus_boat/camera_bow_frame
-  SampleFrequency: 20
+  SampleFrequency: 30
   ImageWidth: 1920
   ImageHeight: 1080
   Data: 
@@ -684,8 +684,6 @@ MonoBehaviour:
   MinDistance: 3
   VerticalFieldOfView: 45
   HorizontalFieldOfView: 360
-  pointCloudShader: {fileID: 0}
-  ParticleMaterial: {fileID: 0}
   enableFogSimulation: 0
   fogAttenuationDistance: 1000
   fogVolume: {fileID: 0}
@@ -1167,9 +1165,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 796a2a52bb595bf419f758613da91253, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Marus.Sensors.Grpc::Marus.Sensors.LidarGrpc
-  UpdateFrequency: 10
+  UpdateFrequency: 1
   address: marus_boat/lidar
-  MessageQueueSize: 5
+  MessageQueueSize: 100
   format: 2
   filterInvalidPoints: 1
 --- !u!1001 &1404571365
@@ -1190,7 +1188,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7199968268822091312, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7199968268822091318, guid: 050dc5202ed3d09ecaf9bc4bada3e310, type: 3}
       propertyPath: m_Enabled
